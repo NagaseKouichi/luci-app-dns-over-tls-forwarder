@@ -1,0 +1,5 @@
+
+config dns-over-tls-forwarder
+	option enable '0'
+	option listen_addr ':8153'
+	option dns_servers 'one.one.one.one:853@1.1.1.1,dns.google:853@8.8.8.8'

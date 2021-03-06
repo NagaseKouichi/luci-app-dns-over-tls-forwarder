@@ -1,0 +1,26 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "A simple, fast DNS-over-TLS forwarding server with hybrid LRU/MFA caching written in Go."
+msgstr "一款用 Go 语言写的带有 LRU/MFA 缓存机制的简单快速 DNS-over-TLS 转发服务器。"
+
+msgid "General Setting"
+msgstr "基本设置"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Listen Address"
+msgstr "监听地址"
+
+msgid "Upstream DNS Servers"
+msgstr "上游 DNS 服务器"
+
+msgid "comma-separated list of upstream servers"
+msgstr "用半角逗号分隔的上游 DNS 服务器列表"
+
+msgid "NOT RUNNING"
+msgstr "未运行"
+
+msgid "RUNNING"
+msgstr "运行中"

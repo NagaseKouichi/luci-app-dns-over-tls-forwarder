@@ -1,0 +1,22 @@
+<script type="text/javascript">//<![CDATA[
+    XHR.poll(3, '<%=url([[admin]], [[services]], [[dns-over-tls-forwarder]], [[status]])%>', null,
+        function(x, data) {
+            var tb = document.getElementById('dns-over-tls-forwarder_status');
+            if (data && tb) {
+                if (data.running) {
+                    var links = '<em><b><font color=green>dns-over-tls-forwarder <%:RUNNING%></font></b></em>';
+                    tb.innerHTML = links;
+                } else {
+                    tb.innerHTML = '<em><b><font color=red>dns-over-tls-forwarder <%:NOT RUNNING%></font></b></em>';
+                }
+            }
+        }
+    );
+    //]]>
+    </script>
+    <style>.mar-10 {margin-left: 50px; margin-right: 10px;}</style>
+    <fieldset class="cbi-section">
+        <p id="dns-over-tls-forwarder_status">
+            <em><%:Collecting data...%></em>
+        </p>
+    </fieldset>

@@ -1,0 +1,11 @@
+{
+	"luci-app-dns-over-tls-forwarder": {
+		"description": "Grant access to LuCI dns-over-tls-forwarder",
+		"read": {
+			"uci": [ "dns-over-tls-forwarder" ]
+		},
+		"write": {
+			"uci": [ "dns-over-tls-forwarder" ]
+		}
+	}
+}

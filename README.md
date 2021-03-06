@@ -1,0 +1,1 @@
+Luci for [dns-over-tls-forwarder](https://github.com/NagaseKouichi/dns-over-tls-forwarder-openwrt)
